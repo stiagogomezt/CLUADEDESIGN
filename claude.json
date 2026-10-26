@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json.schemastore.org/claude-design-system.json",
+  "name": "yaigoje-apaporis-design-system",
+  "version": "1.0.0",
+  "territory": "Yaigojé Apaporis",
+  "tokens": {
+    "colors": {
+      "negroMineral": "#1C1A17",
+      "verdeSelva": "#0D5C3A",
+      "oroViejo": "#D4AF37",
+      "cortezaNeutra": "#2A2723",
+      "arenaCeniza": "#EDE8DF"
+    },
+    "typography": {
+      "fontFamilySans": "Inter, system-ui, -apple-system, sans-serif",
+      "fontFamilyDisplay": "Outfit, serif"
+    },
+    "radii": {
+      "sm": "4px",
+      "md": "8px",
+      "lg": "16px"
+    }
+  },
+  "components": [
+    "TerritoryHero",
+    "StoryCard",
+    "InteractiveMapViewer",
+    "MetricBadge",
+    "AudioPlayerNarrative",
+    "BioculturalTimeline",
+    "NavigationHeader"
+  ]
+}
